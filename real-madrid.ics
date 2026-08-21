@@ -80,14 +80,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Rayo Vallecano
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102295@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 5\n\nHorario pendiente de co
  nfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el día
   y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga.
  com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-rayo-vallecano-5
 END:VEVENT
@@ -95,14 +95,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Elche CF vs Real Madrid
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102303@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 6\n\nHorario pendiente de co
  nfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el día
   y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga.
  com/clubes/real-madrid/proximos-partidos
 LOCATION:Estadio Martínez Valero\, Elche
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-el
  che-cf-real-madrid-6
 END:VEVENT
@@ -110,14 +110,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Atlético de Madrid vs Real Madrid
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102310@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 7\n\nHorario pendiente de co
  nfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el día
   y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga.
  com/clubes/real-madrid/proximos-partidos
 LOCATION:Riyadh Air Metropolitano\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-at
  letico-de-madrid-real-madrid-7
 END:VEVENT
@@ -125,14 +125,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Villarreal CF
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102327@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 8\n\nHorario pendiente de co
  nfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el día
   y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga.
  com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-villarreal-cf-8
 END:VEVENT
@@ -140,14 +140,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Sevilla FC
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102336@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 9\n\nHorario pendiente de co
  nfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el día
   y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga.
  com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-sevilla-fc-9
 END:VEVENT
@@ -155,14 +155,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ FC Barcelona vs Real Madrid
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102343@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 10\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Spotify Camp Nou\, Barcelona
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-fc
  -barcelona-real-madrid-10
 END:VEVENT
@@ -170,14 +170,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ R. Racing Club vs Real Madrid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102356@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 11\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:El Sardinero\, Santander
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-r-
  racing-club-real-madrid-11
 END:VEVENT
@@ -185,14 +185,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Valencia CF vs Real Madrid
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102367@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 12\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Camp de Mestalla\, València
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-va
  lencia-cf-real-madrid-12
 END:VEVENT
@@ -200,14 +200,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Celta
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102377@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 13\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-rc-celta-13
 END:VEVENT
@@ -215,14 +215,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Deportivo Alavés
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102386@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 14\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-deportivo-alaves-14
 END:VEVENT
@@ -230,14 +230,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Athletic Club vs Real Madrid
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102390@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 15\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Estadio San Mamés\, Bilbo
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-at
  hletic-club-real-madrid-15
 END:VEVENT
@@ -245,14 +245,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs CA Osasuna
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102406@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 16\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-ca-osasuna-16
 END:VEVENT
@@ -260,14 +260,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ RC Deportivo vs Real Madrid
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102412@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 17\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Estadio ABANCA-RIAZOR\, A Coruña
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc
  -deportivo-real-madrid-17
 END:VEVENT
@@ -275,14 +275,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Getafe CF
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102426@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 18\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-getafe-cf-18
 END:VEVENT
@@ -290,14 +290,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Levante UD
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102436@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 19\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-levante-ud-19
 END:VEVENT
@@ -305,14 +305,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Málaga CF vs Real Madrid
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102445@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 20\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:La Rosaleda\, Málaga
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-ma
  laga-cf-real-madrid-20
 END:VEVENT
@@ -320,14 +320,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Real Betis
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102456@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 21\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-real-betis-21
 END:VEVENT
@@ -335,14 +335,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Rayo Vallecano vs Real Madrid
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102466@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 22\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Estadio de Vallecas\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-ra
  yo-vallecano-real-madrid-22
 END:VEVENT
@@ -350,14 +350,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Sociedad vs Real Madrid
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102477@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 23\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Anoeta\, Donostia
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-sociedad-real-madrid-23
 END:VEVENT
@@ -365,14 +365,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Athletic Club
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102484@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 24\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-athletic-club-24
 END:VEVENT
@@ -380,14 +380,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Sevilla FC vs Real Madrid
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102497@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 25\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Ramón Sánchez-Pizjuán\, Sevilla
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-se
  villa-fc-real-madrid-25
 END:VEVENT
@@ -395,14 +395,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Valencia CF
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102507@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 26\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-valencia-cf-26
 END:VEVENT
@@ -410,14 +410,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Villarreal CF vs Real Madrid
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102518@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 27\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Estadio de la Cerámica\, Vila-real
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-vi
  llarreal-cf-real-madrid-27
 END:VEVENT
@@ -425,14 +425,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs RCD Espanyol de Barcelona
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102528@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 28\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-rcd-espanyol-de-barcelona-28
 END:VEVENT
@@ -440,14 +440,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Celta vs Real Madrid
 DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102530@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 29\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Estadio ABANCA Balaídos\, Vigo
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc
  -celta-real-madrid-29
 END:VEVENT
@@ -455,14 +455,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Atlético de Madrid
 DTSTART;VALUE=DATE:20270404
 DTEND;VALUE=DATE:20270405
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102547@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 30\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-atletico-de-madrid-30
 END:VEVENT
@@ -470,14 +470,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ CA Osasuna vs Real Madrid
 DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102553@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 31\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Estadio El Sadar\, Pamplona
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-ca
  -osasuna-real-madrid-31
 END:VEVENT
@@ -485,14 +485,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Getafe CF vs Real Madrid
 DTSTART;VALUE=DATE:20270418
 DTEND;VALUE=DATE:20270419
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102565@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 32\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Coliseum\, Getafe
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-ge
  tafe-cf-real-madrid-32
 END:VEVENT
@@ -500,14 +500,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Elche CF
 DTSTART;VALUE=DATE:20270421
 DTEND;VALUE=DATE:20270422
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102575@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 33\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-elche-cf-33
 END:VEVENT
@@ -515,14 +515,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Levante UD vs Real Madrid
 DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102585@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 34\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Estadio Ciutat de València\, València
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-le
  vante-ud-real-madrid-34
 END:VEVENT
@@ -530,14 +530,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs FC Barcelona
 DTSTART;VALUE=DATE:20270509
 DTEND;VALUE=DATE:20270510
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102596@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 35\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-fc-barcelona-35
 END:VEVENT
@@ -545,14 +545,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs R. Racing Club
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270517
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102606@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 36\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-r-racing-club-36
 END:VEVENT
@@ -560,14 +560,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Deportivo Alavés vs Real Madrid
 DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102609@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 37\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Mendizorroza\, Vitoria-Gasteiz
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-de
  portivo-alaves-real-madrid-37
 END:VEVENT
@@ -575,14 +575,14 @@ BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs RC Deportivo
 DTSTART;VALUE=DATE:20270530
 DTEND;VALUE=DATE:20270531
-DTSTAMP:20260821T213648Z
+DTSTAMP:20260821T214429Z
 UID:laliga-match-102627@real-madrid-calendar.github
 DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 38\n\nHorario pendiente de c
  onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
  a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
  .com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:OPAQUE
+TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-rc-deportivo-38
 END:VEVENT
