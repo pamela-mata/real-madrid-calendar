@@ -30,8 +30,8 @@ DTSTART;TZID=Europe/Madrid:20260822T213000
 DTEND;TZID=Europe/Madrid:20260822T233000
 DTSTAMP:20260821T213648Z
 UID:laliga-match-102263@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 2\n\nFuente oficial: LaLiga\
- nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 2\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:RCDE Stadium\, Cornellà de Llobregat
 TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc
@@ -43,8 +43,8 @@ DTSTART;TZID=Europe/Madrid:20260826T210000
 DTEND;TZID=Europe/Madrid:20260826T230000
 DTSTAMP:20260821T213648Z
 UID:laliga-match-102256@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 1\n\nFuente oficial: LaLiga\
- nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 1\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
 TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
@@ -56,8 +56,8 @@ DTSTART;TZID=Europe/Madrid:20260830T170000
 DTEND;TZID=Europe/Madrid:20260830T190000
 DTSTAMP:20260821T213648Z
 UID:laliga-match-102276@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 3\n\nFuente oficial: LaLiga\
- nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 3\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
 TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
@@ -69,8 +69,8 @@ DTSTART;TZID=Europe/Madrid:20260904T210000
 DTEND;TZID=Europe/Madrid:20260904T230000
 DTSTAMP:20260821T213648Z
 UID:laliga-match-102281@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 4\n\nFuente oficial: LaLiga\
- nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 4\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Estadio La Cartuja\, Sevilla
 TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
