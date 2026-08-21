@@ -33,9 +33,11 @@ No hay scraping de HTML: se leen los partidos como JSON estructurado.
   que tu calendario la convierte solo a tu zona horaria.
 - **Descripción:** competición, temporada, jornada y enlace a la fuente oficial.
 - **Ubicación:** estadio y ciudad.
-- **Disponibilidad:** los eventos se marcan como **ocupado** (`TRANSP:OPAQUE`),
-  así que bloquean el hueco frente a "buscar un hueco" y a quien consulte tu
-  disponibilidad.
+- **Disponibilidad:** los partidos con horario confirmado se marcan como
+  **ocupado** (`TRANSP:OPAQUE`) y bloquean sus dos horas frente a "buscar un
+  hueco" y a quien consulte tu disponibilidad. Los que aún no tienen horario se
+  quedan como **libre**, para no bloquear un día entero por un partido cuya hora
+  todavía se desconoce; pasan a ocupado solos en cuanto LaLiga confirma la hora.
 - **Sin alarmas:** los calendarios suscritos ignoran las alarmas del archivo, así
   que cada quien configura sus recordatorios desde su propio cliente.
 

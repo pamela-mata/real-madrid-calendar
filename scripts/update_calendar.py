@@ -248,8 +248,12 @@ def build_event(match: dict[str, Any]) -> Event | None:
             f"https://www.laliga.com/partido/{match['slug']}",
         )
 
-    # OPAQUE = el evento cuenta como tiempo ocupado en el calendario.
-    event.add("transp", "OPAQUE")
+    # OPAQUE = el evento cuenta como tiempo ocupado. Solo se marca así cuando
+    # LaLiga ya confirmó el horario: mientras el partido siga siendo un evento
+    # de día completo, marcarlo ocupado bloquearía la jornada entera por algo
+    # que en realidad durará dos horas todavía sin situar. Cuando el horario se
+    # confirma, el mismo evento pasa por sí solo a bloque de dos horas ocupado.
+    event.add("transp", "OPAQUE" if kickoff is not None else "TRANSPARENT")
     return event
 
 
