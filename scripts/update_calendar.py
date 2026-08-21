@@ -248,7 +248,8 @@ def build_event(match: dict[str, Any]) -> Event | None:
             f"https://www.laliga.com/partido/{match['slug']}",
         )
 
-    event.add("transp", "TRANSPARENT")
+    # OPAQUE = el evento cuenta como tiempo ocupado en el calendario.
+    event.add("transp", "OPAQUE")
     return event
 
 
@@ -278,7 +279,15 @@ def load_existing_events() -> dict[str, Event]:
 
 def event_signature(event: Event) -> tuple:
     """Campos que definen si un evento cambió, ignorando DTSTAMP."""
-    keys = ("SUMMARY", "DTSTART", "DTEND", "DESCRIPTION", "LOCATION", "URL")
+    keys = (
+        "SUMMARY",
+        "DTSTART",
+        "DTEND",
+        "DESCRIPTION",
+        "LOCATION",
+        "URL",
+        "TRANSP",
+    )
     return tuple(
         event.get(key).to_ical() if event.get(key) is not None else None
         for key in keys

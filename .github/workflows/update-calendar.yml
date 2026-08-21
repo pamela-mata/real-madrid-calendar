@@ -2,8 +2,9 @@ name: Update Real Madrid calendar
 
 on:
   schedule:
-    # Lunes 14:00 UTC = 08:00 en Ciudad de México (UTC-6, sin horario de verano).
-    - cron: "0 14 * * 1"
+    # Todos los días a las 14:00 UTC = 08:00 en Ciudad de México
+    # (UTC-6, sin horario de verano).
+    - cron: "0 14 * * *"
   workflow_dispatch:
 
 permissions:

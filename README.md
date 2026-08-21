@@ -33,6 +33,9 @@ No hay scraping de HTML: se leen los partidos como JSON estructurado.
   que tu calendario la convierte solo a tu zona horaria.
 - **Descripción:** competición, temporada, jornada y enlace a la fuente oficial.
 - **Ubicación:** estadio y ciudad.
+- **Disponibilidad:** los eventos se marcan como **ocupado** (`TRANSP:OPAQUE`),
+  así que bloquean el hueco frente a "buscar un hueco" y a quien consulte tu
+  disponibilidad.
 - **Sin alarmas:** los calendarios suscritos ignoran las alarmas del archivo, así
   que cada quien configura sus recordatorios desde su propio cliente.
 
@@ -50,8 +53,9 @@ evento existente en lugar de crear uno nuevo.
 
 ## Frecuencia de actualización
 
-Automática **todos los lunes a las 14:00 UTC** (08:00 en Ciudad de México). Solo
-se crea commit si el `.ics` cambió realmente.
+Automática **todos los días a las 14:00 UTC** (08:00 en Ciudad de México). Solo
+se crea commit si el `.ics` cambió realmente, así que los días sin novedades no
+dejan rastro en el historial.
 
 ## Actualización manual
 
