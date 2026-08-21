@@ -1,2 +1,5 @@
 requests>=2.31
-icalendar>=6.1
+# Versión fijada: distintas versiones de icalendar pliegan las líneas largas de
+# forma diferente. Sin fijarla, una actualización de la librería generaría un
+# commit automático de cambios puramente cosméticos.
+icalendar==7.3.0

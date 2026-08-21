@@ -69,6 +69,8 @@ gh workflow run update-calendar.yml
 
 ## Ejecutar el script localmente
 
+Requiere **Python 3.10 o superior**.
+
 ```bash
 pip install -r requirements.txt
 python scripts/update_calendar.py
