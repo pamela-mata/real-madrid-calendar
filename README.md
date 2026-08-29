@@ -1,8 +1,9 @@
-# Calendario del Real Madrid — LaLiga 2026/27
+# Calendario del Real Madrid — LaLiga y Champions 2026/27
 
-Calendario `.ics` público que se actualiza solo. Te suscribes una vez desde
-Google Calendar (o cualquier cliente de calendario) y los cambios de fecha y
-horario que publique LaLiga llegan solos, sin volver a importar nada.
+Calendario `.ics` público que se actualiza solo, con **LaLiga y la Champions
+League**. Te suscribes una vez desde Google Calendar (o cualquier cliente de
+calendario) y los cambios de fecha y horario llegan solos, sin volver a importar
+nada.
 
 ## URL de suscripción
 
@@ -15,16 +16,22 @@ En Google Calendar: **Otros calendarios → + → Desde URL** y pega esa direcci
 > Google Calendar refresca los calendarios por URL en su propio ciclo, que suele
 > tardar entre unas horas y un par de días. No es configurable desde aquí.
 
-## Fuente de datos
+## Fuentes de datos
 
-La API pública oficial de LaLiga, la misma que consume
-[laliga.com](https://www.laliga.com/clubes/real-madrid/proximos-partidos):
+**Competiciones españolas** — la API pública oficial de LaLiga, la misma que
+consume [laliga.com](https://www.laliga.com/clubes/real-madrid/proximos-partidos):
 
 ```
 https://apim.laliga.com/public-service/api/v1/matches
 ```
 
 No hay scraping de HTML: se leen los partidos como JSON estructurado.
+
+**Champions League** — la API de LaLiga solo publica competiciones españolas, así
+que la fase liga europea vive en la tabla `CHAMPIONS_LEAGUE_PHASE` de
+`scripts/update_calendar.py`, con el calendario oficial que la UEFA publicó tras
+el sorteo del 27/08/2026 y que
+[recogió el club](https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad/calendarios-del-real-madrid-en-la-primera-fase-de-la-champions-2026-27-29-08-2026).
 
 ## Qué contiene cada evento
 
@@ -50,8 +57,8 @@ confirme la hora, ese mismo evento pasa a tener horario: no se duplica.
 La página de "próximos partidos" va retirando los partidos ya jugados. El script
 **nunca borra** eventos del `.ics`: lee el archivo existente, lo fusiona con lo
 que devuelve la API y solo añade o actualiza. Cada evento usa un `UID` estable
-derivado del id de partido de LaLiga, de modo que un cambio de fecha modifica el
-evento existente en lugar de crear uno nuevo.
+(el id de partido de LaLiga, o el número de jornada en la Champions), de modo que
+un cambio de fecha modifica el evento existente en lugar de crear uno nuevo.
 
 ## Frecuencia de actualización
 
@@ -82,7 +89,30 @@ Escribe o actualiza `real-madrid.ics` en la raíz del repositorio.
 
 ## Competiciones
 
-Ahora mismo el calendario cubre **LaLiga EA SPORTS 2026/27** (38 jornadas), que
-es lo único que la API tiene publicado para esta temporada. El script ya consulta
-también Copa del Rey y Supercopa de España; en cuanto LaLiga las publique tras
-los sorteos, entran solas sin tocar el código.
+- **LaLiga EA SPORTS 2026/27** (38 jornadas), vía API.
+- **UEFA Champions League 2026/27**, fase liga (8 jornadas), desde la tabla del
+  script.
+- **Copa del Rey** y **Supercopa de España**: el script ya las consulta; en
+  cuanto LaLiga las publique tras los sorteos, entran solas sin tocar el código.
+
+### Fase liga de la Champions
+
+| Jornada | Partido | Fecha | Hora (Madrid) |
+| --- | --- | --- | --- |
+| 1 | Real Madrid – Inter de Milán | mar 8 sep 2026 | 21:00 |
+| 2 | AS Roma – Real Madrid | mié 14 oct 2026 | 21:00 |
+| 3 | Real Madrid – RB Leipzig | mié 21 oct 2026 | 21:00 |
+| 4 | AEK de Atenas – Real Madrid | mié 4 nov 2026 | 18:45 |
+| 5 | Real Madrid – PSV Eindhoven | mar 24 nov 2026 | 21:00 |
+| 6 | Arsenal FC – Real Madrid | mié 9 dic 2026 | 21:00 |
+| 7 | Real Madrid – LASK | mar 19 ene 2027 | 21:00 |
+| 8 | Shakhtar Donetsk – Real Madrid | mié 27 ene 2027 | 21:00 |
+
+Las horas están guardadas con `TZID=Europe/Madrid`, así que tu calendario las
+convierte solo a tu zona horaria.
+
+Como esos ocho partidos no llegan por API, **una modificación de la UEFA se
+recoge editando la tabla del script**, no sola. El `UID` de cada evento depende
+solo del número de jornada, así que corregir ahí una fecha o una hora actualiza
+el evento que ya está en tu calendario en lugar de duplicarlo. Las eliminatorias
+se añadirán como filas nuevas cuando se sorteen.

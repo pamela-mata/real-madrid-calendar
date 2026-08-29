@@ -3,7 +3,8 @@ VERSION:2.0
 PRODID:-//real-madrid-calendar//LaLiga fixtures//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALDESC:Partidos del Real Madrid. Fuente: LaLiga.
+X-WR-CALDESC:Partidos del Real Madrid. Fuentes: LaLiga y UEFA Champions Le
+ ague.
 X-WR-CALNAME:Real Madrid 2026/27
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VTIMEZONE
@@ -77,6 +78,19 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-betis-real-madrid-4
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:⚽ Real Madrid vs Inter de Milán
+DTSTART;TZID=Europe/Madrid:20260908T210000
+DTEND;TZID=Europe/Madrid:20260908T230000
+DTSTAMP:20260829T144527Z
+UID:ucl-2026-2027-md1@real-madrid-calendar.github
+DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 1\n\nFuent
+ e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
+ l/primer-equipo/actualidad/calendarios-del-real-madrid-en-la-primera-fase-
+ de-la-champions-2026-27-29-08-2026
+LOCATION:Santiago Bernabéu\, Madrid
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Rayo Vallecano
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
@@ -137,6 +151,19 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-villarreal-cf-8
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:⚽ AS Roma vs Real Madrid
+DTSTART;TZID=Europe/Madrid:20261014T210000
+DTEND;TZID=Europe/Madrid:20261014T230000
+DTSTAMP:20260829T144527Z
+UID:ucl-2026-2027-md2@real-madrid-calendar.github
+DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 2\n\nFuent
+ e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
+ l/primer-equipo/actualidad/calendarios-del-real-madrid-en-la-primera-fase-
+ de-la-champions-2026-27-29-08-2026
+LOCATION:Stadio Olimpico\, Roma
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Sevilla FC
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
@@ -150,6 +177,19 @@ LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-sevilla-fc-9
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Real Madrid vs RB Leipzig
+DTSTART;TZID=Europe/Madrid:20261021T210000
+DTEND;TZID=Europe/Madrid:20261021T230000
+DTSTAMP:20260829T144527Z
+UID:ucl-2026-2027-md3@real-madrid-calendar.github
+DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 3\n\nFuent
+ e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
+ l/primer-equipo/actualidad/calendarios-del-real-madrid-en-la-primera-fase-
+ de-la-champions-2026-27-29-08-2026
+LOCATION:Santiago Bernabéu\, Madrid
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ FC Barcelona vs Real Madrid
@@ -182,6 +222,19 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-r-
  racing-club-real-madrid-11
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:⚽ AEK de Atenas vs Real Madrid
+DTSTART;TZID=Europe/Madrid:20261104T184500
+DTEND;TZID=Europe/Madrid:20261104T204500
+DTSTAMP:20260829T144527Z
+UID:ucl-2026-2027-md4@real-madrid-calendar.github
+DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 4\n\nFuent
+ e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
+ l/primer-equipo/actualidad/calendarios-del-real-madrid-en-la-primera-fase-
+ de-la-champions-2026-27-29-08-2026
+LOCATION:OPAP Arena\, Atenas
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:⚽ Valencia CF vs Real Madrid
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
@@ -212,6 +265,19 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-rc-celta-13
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:⚽ Real Madrid vs PSV Eindhoven
+DTSTART;TZID=Europe/Madrid:20261124T210000
+DTEND;TZID=Europe/Madrid:20261124T230000
+DTSTAMP:20260829T144527Z
+UID:ucl-2026-2027-md5@real-madrid-calendar.github
+DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 5\n\nFuent
+ e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
+ l/primer-equipo/actualidad/calendarios-del-real-madrid-en-la-primera-fase-
+ de-la-champions-2026-27-29-08-2026
+LOCATION:Santiago Bernabéu\, Madrid
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Deportivo Alavés
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
@@ -240,6 +306,19 @@ LOCATION:Estadio San Mamés\, Bilbo
 TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-at
  hletic-club-real-madrid-15
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Arsenal FC vs Real Madrid
+DTSTART;TZID=Europe/Madrid:20261209T210000
+DTEND;TZID=Europe/Madrid:20261209T230000
+DTSTAMP:20260829T144527Z
+UID:ucl-2026-2027-md6@real-madrid-calendar.github
+DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 6\n\nFuent
+ e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
+ l/primer-equipo/actualidad/calendarios-del-real-madrid-en-la-primera-fase-
+ de-la-champions-2026-27-29-08-2026
+LOCATION:Emirates Stadium\, Londres
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs CA Osasuna
@@ -317,6 +396,19 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-ma
  laga-cf-real-madrid-20
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:⚽ Real Madrid vs LASK
+DTSTART;TZID=Europe/Madrid:20270119T210000
+DTEND;TZID=Europe/Madrid:20270119T230000
+DTSTAMP:20260829T144527Z
+UID:ucl-2026-2027-md7@real-madrid-calendar.github
+DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 7\n\nFuent
+ e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
+ l/primer-equipo/actualidad/calendarios-del-real-madrid-en-la-primera-fase-
+ de-la-champions-2026-27-29-08-2026
+LOCATION:Santiago Bernabéu\, Madrid
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Real Betis
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
@@ -330,6 +422,19 @@ LOCATION:Bernabéu\, Madrid
 TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-real-betis-21
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Shakhtar Donetsk vs Real Madrid
+DTSTART;TZID=Europe/Madrid:20270127T210000
+DTEND;TZID=Europe/Madrid:20270127T230000
+DTSTAMP:20260829T144527Z
+UID:ucl-2026-2027-md8@real-madrid-calendar.github
+DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 8\n\nFuent
+ e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
+ l/primer-equipo/actualidad/calendarios-del-real-madrid-en-la-primera-fase-
+ de-la-champions-2026-27-29-08-2026
+LOCATION:Stamford Bridge\, Londres
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Rayo Vallecano vs Real Madrid

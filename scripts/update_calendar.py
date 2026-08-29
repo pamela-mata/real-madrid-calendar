@@ -2,9 +2,16 @@
 """
 Genera y actualiza `real-madrid.ics` con los partidos del Real Madrid.
 
-Fuente: API pública oficial de LaLiga (la misma que consume laliga.com).
+Fuentes:
 
-    https://apim.laliga.com/public-service/api/v1/matches
+  * Competiciones españolas: API pública oficial de LaLiga (la misma que
+    consume laliga.com).
+
+        https://apim.laliga.com/public-service/api/v1/matches
+
+  * Champions League: tabla `CHAMPIONS_LEAGUE_PHASE` de este mismo archivo. La
+    API de LaLiga solo publica competiciones españolas, así que la fase liga
+    europea se mantiene aquí con el calendario oficial de la UEFA.
 
 Reglas de fusión (merge), no de regeneración:
 
@@ -95,6 +102,91 @@ PENDING_NOTE = "Horario pendiente de confirmación por LaLiga."
 PROVISIONAL_NOTE = (
     "Fecha provisional: LaLiga puede modificar el día y la hora de este partido."
 )
+
+
+# --------------------------------------------------------------------------- #
+# Champions League
+# --------------------------------------------------------------------------- #
+
+CHAMPIONS_NAME = "UEFA Champions League"
+CHAMPIONS_PHASE = "Fase liga"
+
+CHAMPIONS_SOURCE_URL = (
+    "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/actualidad"
+    "/calendarios-del-real-madrid-en-la-primera-fase-de-la-champions-2026-27"
+    "-29-08-2026"
+)
+
+# Fase liga de la Champions 2026/27: calendario oficial publicado por la UEFA
+# tras el sorteo del 27/08/2026 y recogido por el Real Madrid en la nota de
+# prensa enlazada arriba.
+#
+# Se mantiene a mano porque la API de LaLiga no cubre competiciones UEFA. El UID
+# de cada evento depende solo de la jornada, así que corregir aquí una fecha o
+# una hora actualiza el evento que ya está en el .ics en lugar de duplicarlo, y
+# las eliminatorias se añaden como filas nuevas cuando se sorteen.
+#
+# `kickoff` es hora local de Madrid (la misma que publica el club).
+CHAMPIONS_LEAGUE_PHASE: list[dict[str, Any]] = [
+    {
+        "gameweek": 1,
+        "home": "Real Madrid",
+        "away": "Inter de Milán",
+        "kickoff": datetime(2026, 9, 8, 21, 0),
+        "venue": "Santiago Bernabéu, Madrid",
+    },
+    {
+        "gameweek": 2,
+        "home": "AS Roma",
+        "away": "Real Madrid",
+        "kickoff": datetime(2026, 10, 14, 21, 0),
+        "venue": "Stadio Olimpico, Roma",
+    },
+    {
+        "gameweek": 3,
+        "home": "Real Madrid",
+        "away": "RB Leipzig",
+        "kickoff": datetime(2026, 10, 21, 21, 0),
+        "venue": "Santiago Bernabéu, Madrid",
+    },
+    {
+        "gameweek": 4,
+        "home": "AEK de Atenas",
+        "away": "Real Madrid",
+        "kickoff": datetime(2026, 11, 4, 18, 45),
+        "venue": "OPAP Arena, Atenas",
+    },
+    {
+        "gameweek": 5,
+        "home": "Real Madrid",
+        "away": "PSV Eindhoven",
+        "kickoff": datetime(2026, 11, 24, 21, 0),
+        "venue": "Santiago Bernabéu, Madrid",
+    },
+    {
+        "gameweek": 6,
+        "home": "Arsenal FC",
+        "away": "Real Madrid",
+        "kickoff": datetime(2026, 12, 9, 21, 0),
+        "venue": "Emirates Stadium, Londres",
+    },
+    {
+        "gameweek": 7,
+        "home": "Real Madrid",
+        "away": "LASK",
+        "kickoff": datetime(2027, 1, 19, 21, 0),
+        "venue": "Santiago Bernabéu, Madrid",
+    },
+    {
+        # Shakhtar disputa sus partidos "en casa" fuera de Ucrania; en 2026/27,
+        # en Stamford Bridge.
+        "gameweek": 8,
+        "home": "Shakhtar Donetsk",
+        "away": "Real Madrid",
+        "kickoff": datetime(2027, 1, 27, 21, 0),
+        "venue": "Stamford Bridge, Londres",
+    },
+]
 
 
 # --------------------------------------------------------------------------- #
@@ -257,6 +349,39 @@ def build_event(match: dict[str, Any]) -> Event | None:
     return event
 
 
+def champions_uid(gameweek: int) -> str:
+    return f"ucl-2026-2027-md{gameweek}@{UID_DOMAIN}"
+
+
+def build_champions_event(fixture: dict[str, Any]) -> Event:
+    kickoff = fixture["kickoff"].replace(tzinfo=MADRID)
+
+    event = Event()
+    event.add("uid", champions_uid(fixture["gameweek"]))
+    event.add("summary", f"⚽ {fixture['home']} vs {fixture['away']}")
+    event.add("dtstamp", datetime.now(tz=UTC))
+    event.add("dtstart", kickoff)
+    event.add("dtend", kickoff + MATCH_DURATION)
+    event.add("location", fixture["venue"])
+    event.add(
+        "description",
+        "\n".join(
+            [
+                f"{CHAMPIONS_NAME} {SEASON}",
+                f"{CHAMPIONS_PHASE} · Jornada {fixture['gameweek']}",
+                "",
+                "Fuente oficial: Real Madrid CF",
+                CHAMPIONS_SOURCE_URL,
+            ]
+        ),
+    )
+
+    # La UEFA publica la fase liga con horario definitivo, así que estos
+    # partidos se marcan ocupados desde el primer momento.
+    event.add("transp", "OPAQUE")
+    return event
+
+
 # --------------------------------------------------------------------------- #
 # Fusión con el .ics existente
 # --------------------------------------------------------------------------- #
@@ -315,7 +440,10 @@ def build_calendar(events: Iterable[Event]) -> Calendar:
     calendar.add("calscale", "GREGORIAN")
     calendar.add("method", "PUBLISH")
     calendar.add("x-wr-calname", CALENDAR_NAME)
-    calendar.add("x-wr-caldesc", f"Partidos del {TEAM_NAME}. Fuente: LaLiga.")
+    calendar.add(
+        "x-wr-caldesc",
+        f"Partidos del {TEAM_NAME}. Fuentes: LaLiga y UEFA Champions League.",
+    )
     calendar.add("x-wr-timezone", "Europe/Madrid")
     # Sin VALARM: los calendarios suscritos en Google Calendar ignoran las alarmas
     # del archivo y cada persona configura las suyas desde la interfaz.
@@ -329,9 +457,21 @@ def build_calendar(events: Iterable[Event]) -> Calendar:
     return calendar
 
 
-def main() -> int:
+def collect_events() -> tuple[list[Event], int]:
+    """Eventos de todas las fuentes y número de partidos leídos de la API."""
     print(f"Consultando la API de LaLiga para {TEAM_NAME} ({SEASON})…")
     matches = fetch_all_matches()
+
+    events = [event for event in map(build_event, matches) if event is not None]
+
+    events.extend(build_champions_event(f) for f in CHAMPIONS_LEAGUE_PHASE)
+    print(f"  · champions-league-2026: {len(CHAMPIONS_LEAGUE_PHASE)} partidos")
+
+    return events, len(matches)
+
+
+def main() -> int:
+    events, api_matches = collect_events()
 
     existing = load_existing_events()
     merged: dict[str, Event] = dict(existing)
@@ -339,11 +479,7 @@ def main() -> int:
     added = updated = pending = 0
     seen: set[str] = set()
 
-    for match in matches:
-        event = build_event(match)
-        if event is None:
-            continue
-
+    for event in events:
         uid = str(event["uid"])
         seen.add(uid)
         if event.get("dtstart") is not None and not isinstance(
@@ -370,7 +506,8 @@ def main() -> int:
     calendar = build_calendar(merged.values())
     ICS_PATH.write_bytes(calendar.to_ical())
 
-    print(f"\nPartidos en la API:        {len(matches)}")
+    print(f"\nPartidos en la API:        {api_matches}")
+    print(f"Partidos de Champions:     {len(CHAMPIONS_LEAGUE_PHASE)}")
     print(f"Eventos nuevos:            {added}")
     print(f"Eventos actualizados:      {updated}")
     print(f"Sin horario confirmado:    {pending}")
