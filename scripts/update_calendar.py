@@ -286,6 +286,15 @@ def match_uid(match: dict[str, Any]) -> str:
     return f"laliga-match-{match['id']}@{UID_DOMAIN}"
 
 
+def competition_emoji(competition_name: str) -> str:
+    name = competition_name.lower()
+    if "copa del rey" in name:
+        return "👑"
+    if "supercopa" in name:
+        return "🇪🇸"
+    return "⚽"
+
+
 def build_event(match: dict[str, Any]) -> Event | None:
     home = team_label(match.get("home_team"))
     away = team_label(match.get("away_team"))
@@ -303,7 +312,7 @@ def build_event(match: dict[str, Any]) -> Event | None:
 
     event = Event()
     event.add("uid", match_uid(match))
-    event.add("summary", f"⚽ {home} vs {away}")
+    event.add("summary", f"{competition_emoji(competition)} {home} vs {away}")
     event.add("dtstamp", datetime.now(tz=UTC))
 
     description_lines = [f"{competition} {SEASON}"]
