@@ -31,8 +31,8 @@ DTSTART;TZID=Europe/Madrid:20260822T213000
 DTEND;TZID=Europe/Madrid:20260822T233000
 DTSTAMP:20260821T213648Z
 UID:laliga-match-102263@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 2\n\nFuente oficial: LaLiga
- \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 2\n\nFuente oficial: LaLiga\
+ nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:RCDE Stadium\, Cornellà de Llobregat
 TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-rc
@@ -44,8 +44,8 @@ DTSTART;TZID=Europe/Madrid:20260826T210000
 DTEND;TZID=Europe/Madrid:20260826T230000
 DTSTAMP:20260821T213648Z
 UID:laliga-match-102256@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 1\n\nFuente oficial: LaLiga
- \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 1\n\nFuente oficial: LaLiga\
+ nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
 TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
@@ -57,8 +57,8 @@ DTSTART;TZID=Europe/Madrid:20260830T170000
 DTEND;TZID=Europe/Madrid:20260830T190000
 DTSTAMP:20260821T213648Z
 UID:laliga-match-102276@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 3\n\nFuente oficial: LaLiga
- \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 3\n\nFuente oficial: LaLiga\
+ nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
 TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
@@ -70,18 +70,18 @@ DTSTART;TZID=Europe/Madrid:20260904T210000
 DTEND;TZID=Europe/Madrid:20260904T230000
 DTSTAMP:20260821T213648Z
 UID:laliga-match-102281@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 4\n\nFuente oficial: LaLiga
- \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 4\n\nFuente oficial: LaLiga\
+ nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Estadio La Cartuja\, Sevilla
 TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-betis-real-madrid-4
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ Real Madrid vs Inter de Milán
+SUMMARY:🏆 Real Madrid vs Inter de Milán
 DTSTART;TZID=Europe/Madrid:20260908T210000
 DTEND;TZID=Europe/Madrid:20260908T230000
-DTSTAMP:20260829T144527Z
+DTSTAMP:20260829T161547Z
 UID:ucl-2026-2027-md1@real-madrid-calendar.github
 DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 1\n\nFuent
  e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
@@ -151,10 +151,10 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-villarreal-cf-8
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ AS Roma vs Real Madrid
+SUMMARY:🏆 AS Roma vs Real Madrid
 DTSTART;TZID=Europe/Madrid:20261014T210000
 DTEND;TZID=Europe/Madrid:20261014T230000
-DTSTAMP:20260829T144527Z
+DTSTAMP:20260829T161547Z
 UID:ucl-2026-2027-md2@real-madrid-calendar.github
 DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 2\n\nFuent
  e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
@@ -179,10 +179,10 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-sevilla-fc-9
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ Real Madrid vs RB Leipzig
+SUMMARY:🏆 Real Madrid vs RB Leipzig
 DTSTART;TZID=Europe/Madrid:20261021T210000
 DTEND;TZID=Europe/Madrid:20261021T230000
-DTSTAMP:20260829T144527Z
+DTSTAMP:20260829T161547Z
 UID:ucl-2026-2027-md3@real-madrid-calendar.github
 DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 3\n\nFuent
  e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
@@ -222,10 +222,10 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-r-
  racing-club-real-madrid-11
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ AEK de Atenas vs Real Madrid
+SUMMARY:🏆 AEK de Atenas vs Real Madrid
 DTSTART;TZID=Europe/Madrid:20261104T184500
 DTEND;TZID=Europe/Madrid:20261104T204500
-DTSTAMP:20260829T144527Z
+DTSTAMP:20260829T161547Z
 UID:ucl-2026-2027-md4@real-madrid-calendar.github
 DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 4\n\nFuent
  e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
@@ -265,10 +265,10 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-rc-celta-13
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ Real Madrid vs PSV Eindhoven
+SUMMARY:🏆 Real Madrid vs PSV Eindhoven
 DTSTART;TZID=Europe/Madrid:20261124T210000
 DTEND;TZID=Europe/Madrid:20261124T230000
-DTSTAMP:20260829T144527Z
+DTSTAMP:20260829T161547Z
 UID:ucl-2026-2027-md5@real-madrid-calendar.github
 DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 5\n\nFuent
  e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
@@ -308,10 +308,10 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-at
  hletic-club-real-madrid-15
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ Arsenal FC vs Real Madrid
+SUMMARY:🏆 Arsenal FC vs Real Madrid
 DTSTART;TZID=Europe/Madrid:20261209T210000
 DTEND;TZID=Europe/Madrid:20261209T230000
-DTSTAMP:20260829T144527Z
+DTSTAMP:20260829T161547Z
 UID:ucl-2026-2027-md6@real-madrid-calendar.github
 DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 6\n\nFuent
  e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
@@ -396,10 +396,10 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-ma
  laga-cf-real-madrid-20
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ Real Madrid vs LASK
+SUMMARY:🏆 Real Madrid vs LASK
 DTSTART;TZID=Europe/Madrid:20270119T210000
 DTEND;TZID=Europe/Madrid:20270119T230000
-DTSTAMP:20260829T144527Z
+DTSTAMP:20260829T161547Z
 UID:ucl-2026-2027-md7@real-madrid-calendar.github
 DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 7\n\nFuent
  e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo
@@ -424,10 +424,10 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-real-betis-21
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:⚽ Shakhtar Donetsk vs Real Madrid
+SUMMARY:🏆 Shakhtar Donetsk vs Real Madrid
 DTSTART;TZID=Europe/Madrid:20270127T210000
 DTEND;TZID=Europe/Madrid:20270127T230000
-DTSTAMP:20260829T144527Z
+DTSTAMP:20260829T161547Z
 UID:ucl-2026-2027-md8@real-madrid-calendar.github
 DESCRIPTION:UEFA Champions League 2026/27\nFase liga · Jornada 8\n\nFuent
  e oficial: Real Madrid CF\nhttps://www.realmadrid.com/es-ES/noticias/futbo

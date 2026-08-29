@@ -358,7 +358,7 @@ def build_champions_event(fixture: dict[str, Any]) -> Event:
 
     event = Event()
     event.add("uid", champions_uid(fixture["gameweek"]))
-    event.add("summary", f"⚽ {fixture['home']} vs {fixture['away']}")
+    event.add("summary", f"🏆 {fixture['home']} vs {fixture['away']}")
     event.add("dtstamp", datetime.now(tz=UTC))
     event.add("dtstart", kickoff)
     event.add("dtend", kickoff + MATCH_DURATION)
