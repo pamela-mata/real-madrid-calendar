@@ -92,46 +92,40 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Rayo Vallecano
-DTSTART;VALUE=DATE:20260913
-DTEND;VALUE=DATE:20260914
-DTSTAMP:20260821T214429Z
+DTSTART;TZID=Europe/Madrid:20260912T210000
+DTEND;TZID=Europe/Madrid:20260912T230000
+DTSTAMP:20260830T175830Z
 UID:laliga-match-102295@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 5\n\nHorario pendiente de co
- nfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el día
-  y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga.
- com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 5\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-rayo-vallecano-5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Elche CF vs Real Madrid
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-DTSTAMP:20260821T214429Z
+DTSTART;TZID=Europe/Madrid:20260915T213000
+DTEND;TZID=Europe/Madrid:20260915T233000
+DTSTAMP:20260830T175830Z
 UID:laliga-match-102303@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 6\n\nHorario pendiente de co
- nfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el día
-  y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga.
- com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 6\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Estadio Martínez Valero\, Elche
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-el
  che-cf-real-madrid-6
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Atlético de Madrid vs Real Madrid
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-DTSTAMP:20260821T214429Z
+DTSTART;TZID=Europe/Madrid:20260920T161500
+DTEND;TZID=Europe/Madrid:20260920T181500
+DTSTAMP:20260830T175830Z
 UID:laliga-match-102310@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 7\n\nHorario pendiente de co
- nfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el día
-  y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga.
- com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 7\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Riyadh Air Metropolitano\, Madrid
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-at
  letico-de-madrid-real-madrid-7
 END:VEVENT
