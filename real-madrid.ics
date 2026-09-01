@@ -187,16 +187,14 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ FC Barcelona vs Real Madrid
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-DTSTAMP:20260821T214429Z
+DTSTART;TZID=Europe/Madrid:20261025T210000
+DTEND;TZID=Europe/Madrid:20261025T230000
+DTSTAMP:20260901T174012Z
 UID:laliga-match-102343@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 10\n\nHorario pendiente de c
- onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
- a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
- .com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 10\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Spotify Camp Nou\, Barcelona
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-fc
  -barcelona-real-madrid-10
 END:VEVENT
