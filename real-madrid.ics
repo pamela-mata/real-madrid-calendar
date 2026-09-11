@@ -131,16 +131,14 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-at
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Villarreal CF
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
-DTSTAMP:20260821T214429Z
+DTSTART;TZID=Europe/Madrid:20261010T210000
+DTEND;TZID=Europe/Madrid:20261010T230000
+DTSTAMP:20260911T173641Z
 UID:laliga-match-102327@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 8\n\nHorario pendiente de co
- nfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el día
-  y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga.
- com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 8\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-villarreal-cf-8
 END:VEVENT
