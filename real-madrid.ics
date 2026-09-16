@@ -157,16 +157,14 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Sevilla FC
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-DTSTAMP:20260821T214429Z
+DTSTART;TZID=Europe/Madrid:20261018T210000
+DTEND;TZID=Europe/Madrid:20261018T230000
+DTSTAMP:20260916T175953Z
 UID:laliga-match-102336@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 9\n\nHorario pendiente de co
- nfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el día
-  y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga.
- com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 9\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-sevilla-fc-9
 END:VEVENT
