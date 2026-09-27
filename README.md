@@ -66,6 +66,11 @@ Automática **todos los días a las 14:00 UTC** (08:00 en Ciudad de México). So
 se crea commit si el `.ics` cambió realmente, así que los días sin novedades no
 dejan rastro en el historial.
 
+Si la API de LaLiga no responde, cada petición se reintenta hasta 3 veces con
+espera creciente (el primero de inmediato, luego a los 10 s y a los 20 s). Solo
+si todos los intentos fallan la corrida termina en error, y en ese caso el
+`.ics` no se toca: el calendario se pone al día en la siguiente corrida.
+
 ## Actualización manual
 
 Desde la web: pestaña **Actions → Update Real Madrid calendar → Run workflow**.

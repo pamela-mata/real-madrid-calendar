@@ -37,6 +37,8 @@ from zoneinfo import ZoneInfo
 
 import requests
 from icalendar import Calendar, Event, Timezone
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # --------------------------------------------------------------------------- #
 # Configuración
@@ -97,6 +99,11 @@ END:STANDARD
 END:VTIMEZONE"""
 
 REQUEST_TIMEOUT = 30
+
+# La API de LaLiga a veces deja de responder unos minutos. Antes de dar la
+# corrida por fallida se reintenta cada petición, esperando cada vez un poco más.
+REQUEST_RETRIES = 3
+RETRY_BACKOFF = 5  # espera entre reintentos: 0 s, 10 s, 20 s
 
 PENDING_NOTE = "Horario pendiente de confirmación por LaLiga."
 PROVISIONAL_NOTE = (
@@ -194,6 +201,22 @@ CHAMPIONS_LEAGUE_PHASE: list[dict[str, Any]] = [
 # --------------------------------------------------------------------------- #
 
 
+def build_session() -> requests.Session:
+    retry = Retry(
+        total=REQUEST_RETRIES,
+        backoff_factor=RETRY_BACKOFF,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=("GET",),
+        raise_on_status=False,
+    )
+    session = requests.Session()
+    session.mount("https://", HTTPAdapter(max_retries=retry))
+    return session
+
+
+SESSION = build_session()
+
+
 def fetch_matches(subscription: str) -> list[dict[str, Any]]:
     """Devuelve los partidos del equipo en una competición. [] si no existe."""
     matches: list[dict[str, Any]] = []
@@ -201,7 +224,7 @@ def fetch_matches(subscription: str) -> list[dict[str, Any]]:
     limit = 100
 
     while True:
-        response = requests.get(
+        response = SESSION.get(
             f"{API_BASE}/matches",
             params={
                 "subscriptionSlug": subscription,
