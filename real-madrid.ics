@@ -196,16 +196,14 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-fc
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ R. Racing Club vs Real Madrid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-DTSTAMP:20260821T214429Z
+DTSTART;TZID=Europe/Madrid:20261101T161500
+DTEND;TZID=Europe/Madrid:20261101T181500
+DTSTAMP:20261003T174953Z
 UID:laliga-match-102356@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 11\n\nHorario pendiente de c
- onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
- a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
- .com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 11\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:El Sardinero\, Santander
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-r-
  racing-club-real-madrid-11
 END:VEVENT
