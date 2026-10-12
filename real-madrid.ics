@@ -222,16 +222,14 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Valencia CF vs Real Madrid
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-DTSTAMP:20260821T214429Z
+DTSTART;TZID=Europe/Madrid:20261107T210000
+DTEND;TZID=Europe/Madrid:20261107T230000
+DTSTAMP:20261012T215951Z
 UID:laliga-match-102367@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 12\n\nHorario pendiente de c
- onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
- a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
- .com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 12\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Camp de Mestalla\, València
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-va
  lencia-cf-real-madrid-12
 END:VEVENT
