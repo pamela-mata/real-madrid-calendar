@@ -235,16 +235,14 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-va
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Celta
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-DTSTAMP:20260821T214429Z
+DTSTART;TZID=Europe/Madrid:20261121T210000
+DTEND;TZID=Europe/Madrid:20261121T230000
+DTSTAMP:20261021T182707Z
 UID:laliga-match-102377@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 13\n\nHorario pendiente de c
- onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
- a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
- .com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 13\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-rc-celta-13
 END:VEVENT
