@@ -261,18 +261,29 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Deportivo Alavés
-DTSTART;VALUE=DATE:20261129
-DTEND;VALUE=DATE:20261130
-DTSTAMP:20260821T214429Z
+DTSTART;TZID=Europe/Madrid:20261128T210000
+DTEND;TZID=Europe/Madrid:20261128T230000
+DTSTAMP:20261106T201614Z
 UID:laliga-match-102386@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 14\n\nHorario pendiente de c
- onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
- a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
- .com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 14\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Bernabéu\, Madrid
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
  al-madrid-deportivo-alaves-14
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:⚽ Real Sociedad vs Real Madrid
+DTSTART;TZID=Europe/Madrid:20261202T190000
+DTEND;TZID=Europe/Madrid:20261202T210000
+DTSTAMP:20261106T201614Z
+UID:laliga-match-102477@real-madrid-calendar.github
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 23\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
+LOCATION:Anoeta\, Donostia
+TRANSP:OPAQUE
+URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
+ al-sociedad-real-madrid-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Athletic Club vs Real Madrid
@@ -432,21 +443,6 @@ LOCATION:Estadio de Vallecas\, Madrid
 TRANSP:TRANSPARENT
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-ra
  yo-vallecano-real-madrid-22
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:⚽ Real Sociedad vs Real Madrid
-DTSTART;VALUE=DATE:20270207
-DTEND;VALUE=DATE:20270208
-DTSTAMP:20260821T214429Z
-UID:laliga-match-102477@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 23\n\nHorario pendiente de c
- onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
- a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
- .com/clubes/real-madrid/proximos-partidos
-LOCATION:Anoeta\, Donostia
-TRANSP:TRANSPARENT
-URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
- al-sociedad-real-madrid-23
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Real Madrid vs Athletic Club
