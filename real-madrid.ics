@@ -287,16 +287,14 @@ URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-re
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Athletic Club vs Real Madrid
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-DTSTAMP:20260821T214429Z
+DTSTART;TZID=Europe/Madrid:20261206T161500
+DTEND;TZID=Europe/Madrid:20261206T181500
+DTSTAMP:20261115T193708Z
 UID:laliga-match-102390@real-madrid-calendar.github
-DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 15\n\nHorario pendiente de c
- onfirmación por LaLiga.\nFecha provisional: LaLiga puede modificar el dí
- a y la hora de este partido.\n\nFuente oficial: LaLiga\nhttps://www.laliga
- .com/clubes/real-madrid/proximos-partidos
+DESCRIPTION:LALIGA EA SPORTS 2026/27\nJornada 15\n\nFuente oficial: LaLiga
+ \nhttps://www.laliga.com/clubes/real-madrid/proximos-partidos
 LOCATION:Estadio San Mamés\, Bilbo
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
 URL:https://www.laliga.com/partido/temporada-2026-2027-laliga-ea-sports-at
  hletic-club-real-madrid-15
 END:VEVENT
